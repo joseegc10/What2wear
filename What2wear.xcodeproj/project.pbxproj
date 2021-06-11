@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		638D757C7529272B5227DC2C /* Pods_What2wear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F3F4E6518569BC4FD7B29D /* Pods_What2wear.framework */; };
+		8C5EED702667EAA90002F388 /* AddEditPrendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED6F2667EAA90002F388 /* AddEditPrendaView.swift */; };
+		8C5EED722667EB210002F388 /* PrendaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED712667EB210002F388 /* PrendaModel.swift */; };
+		8C5EED742667EE3F0002F388 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED732667EE3F0002F388 /* FirebaseAuth.swift */; };
+		8C5EED762667EF1F0002F388 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED752667EF1F0002F388 /* LoginView.swift */; };
+		8C5EED782667EF290002F388 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED772667EF290002F388 /* RegisterView.swift */; };
+		8C5EED7A2667F0050002F388 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED792667F0050002F388 /* UserModel.swift */; };
+		8C5EED7C2667F05D0002F388 /* PrendaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED7B2667F05D0002F388 /* PrendaViewModel.swift */; };
+		8C5EED7E2667F1EA0002F388 /* ConjuntoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED7D2667F1EA0002F388 /* ConjuntoModel.swift */; };
+		8C5EED802667F53C0002F388 /* IntroduccionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED7F2667F53C0002F388 /* IntroduccionView.swift */; };
+		8C5EED822667F8AE0002F388 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EED812667F8AE0002F388 /* AccountView.swift */; };
+		8C9B467F26668F2500128D5E /* What2wearApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B467E26668F2500128D5E /* What2wearApp.swift */; };
+		8C9B468126668F2500128D5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B468026668F2500128D5E /* ContentView.swift */; };
+		8C9B468326668F2500128D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B468226668F2500128D5E /* Assets.xcassets */; };
+		8C9B468626668F2500128D5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B468526668F2500128D5E /* Preview Assets.xcassets */; };
+		8C9B468E2666908D00128D5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B468D2666908D00128D5E /* GoogleService-Info.plist */; };
+		8CA2FD532666918000C0331E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2FD522666918000C0331E /* AppDelegate.swift */; };
+		8CA2FD58266696C600C0331E /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2FD57266696C600C0331E /* InitView.swift */; };
+		8CA2FD5C2666987900C0331E /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2FD5B2666987900C0331E /* NavigationBarColor.swift */; };
+		8CA2FD5E26669F7B00C0331E /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2FD5D26669F7B00C0331E /* MyNavigationView.swift */; };
+		8CA2FD602666A1B400C0331E /* UtilidadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2FD5F2666A1B400C0331E /* UtilidadApp.swift */; };
+		8CB270DA2673646D005ACA62 /* AddRopaConjuntoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB270D92673646D005ACA62 /* AddRopaConjuntoView.swift */; };
+		8CB270DC26736478005ACA62 /* AddCalzadoConjuntoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB270DB26736478005ACA62 /* AddCalzadoConjuntoView.swift */; };
+		8CB270DE26736482005ACA62 /* AddComplementosConjuntoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB270DD26736482005ACA62 /* AddComplementosConjuntoView.swift */; };
+		8CB270E226736ECA005ACA62 /* EliminaNavInitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB270E126736ECA005ACA62 /* EliminaNavInitView.swift */; };
+		8CB7337E266A2EC900FD7DF0 /* ConjuntoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7337D266A2EC900FD7DF0 /* ConjuntoView.swift */; };
+		8CD81F2F2672258D0016A35E /* PrendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD81F2E2672258D0016A35E /* PrendaView.swift */; };
+		8CD81F332672293D0016A35E /* RopaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD81F322672293D0016A35E /* RopaView.swift */; };
+		8CD81F35267238560016A35E /* TiposRopaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD81F34267238560016A35E /* TiposRopaView.swift */; };
+		8CF599232668CE5D005A8C35 /* ImagenStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF599222668CE5D005A8C35 /* ImagenStorageView.swift */; };
+		8CF599252668CE85005A8C35 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF599242668CE85005A8C35 /* ImagePicker.swift */; };
+		8CF599272668CF1E005A8C35 /* TiposPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF599262668CF1E005A8C35 /* TiposPickerView.swift */; };
+		8CF599292668D1FB005A8C35 /* DocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF599282668D1FB005A8C35 /* DocumentViewModel.swift */; };
+		8CF5992B2668E7B6005A8C35 /* BuscarPrendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5992A2668E7B6005A8C35 /* BuscarPrendaView.swift */; };
+		8CF5992D2668E8A2005A8C35 /* PrendaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5992C2668E8A2005A8C35 /* PrendaCardView.swift */; };
+		8CF5992F2668F009005A8C35 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5992E2668F009005A8C35 /* TypeView.swift */; };
+		8CF599312668F608005A8C35 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF599302668F608005A8C35 /* ShareSheet.swift */; };
+		8CF5993726692864005A8C35 /* AddEditConjuntoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5993626692864005A8C35 /* AddEditConjuntoView.swift */; };
+		8CF5993926692FAC005A8C35 /* PrendaCardNoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5993826692FAC005A8C35 /* PrendaCardNoEditView.swift */; };
+		8CF5993B266933D7005A8C35 /* GuardaConjuntoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5993A266933D7005A8C35 /* GuardaConjuntoView.swift */; };
+		8CF5993D26693A95005A8C35 /* SinNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5993C26693A95005A8C35 /* SinNavView.swift */; };
+		8CF599412669414C005A8C35 /* ConjuntoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF599402669414C005A8C35 /* ConjuntoCardView.swift */; };
+		8CF5994326694846005A8C35 /* BuscarConjuntoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5994226694846005A8C35 /* BuscarConjuntoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63F3F4E6518569BC4FD7B29D /* Pods_What2wear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What2wear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E474E194442D48561605BBA /* Pods-What2wear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What2wear.release.xcconfig"; path = "Target Support Files/Pods-What2wear/Pods-What2wear.release.xcconfig"; sourceTree = "<group>"; };
+		8C5EED6F2667EAA90002F388 /* AddEditPrendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditPrendaView.swift; sourceTree = "<group>"; };
+		8C5EED712667EB210002F388 /* PrendaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrendaModel.swift; sourceTree = "<group>"; };
+		8C5EED732667EE3F0002F388 /* FirebaseAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
+		8C5EED752667EF1F0002F388 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8C5EED772667EF290002F388 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8C5EED792667F0050002F388 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8C5EED7B2667F05D0002F388 /* PrendaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrendaViewModel.swift; sourceTree = "<group>"; };
+		8C5EED7D2667F1EA0002F388 /* ConjuntoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjuntoModel.swift; sourceTree = "<group>"; };
+		8C5EED7F2667F53C0002F388 /* IntroduccionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduccionView.swift; sourceTree = "<group>"; };
+		8C5EED812667F8AE0002F388 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		8C9B467B26668F2500128D5E /* What2wear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = What2wear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9B467E26668F2500128D5E /* What2wearApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What2wearApp.swift; sourceTree = "<group>"; };
+		8C9B468026668F2500128D5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C9B468226668F2500128D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C9B468526668F2500128D5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C9B468726668F2500128D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9B468D2666908D00128D5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CA2FD522666918000C0331E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CA2FD57266696C600C0331E /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
+		8CA2FD5B2666987900C0331E /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
+		8CA2FD5D26669F7B00C0331E /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		8CA2FD5F2666A1B400C0331E /* UtilidadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilidadApp.swift; sourceTree = "<group>"; };
+		8CB270D92673646D005ACA62 /* AddRopaConjuntoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRopaConjuntoView.swift; sourceTree = "<group>"; };
+		8CB270DB26736478005ACA62 /* AddCalzadoConjuntoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCalzadoConjuntoView.swift; sourceTree = "<group>"; };
+		8CB270DD26736482005ACA62 /* AddComplementosConjuntoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddComplementosConjuntoView.swift; sourceTree = "<group>"; };
+		8CB270E126736ECA005ACA62 /* EliminaNavInitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminaNavInitView.swift; sourceTree = "<group>"; };
+		8CB7337D266A2EC900FD7DF0 /* ConjuntoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjuntoView.swift; sourceTree = "<group>"; };
+		8CD81F2E2672258D0016A35E /* PrendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrendaView.swift; sourceTree = "<group>"; };
+		8CD81F322672293D0016A35E /* RopaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopaView.swift; sourceTree = "<group>"; };
+		8CD81F34267238560016A35E /* TiposRopaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiposRopaView.swift; sourceTree = "<group>"; };
+		8CF599222668CE5D005A8C35 /* ImagenStorageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagenStorageView.swift; sourceTree = "<group>"; };
+		8CF599242668CE85005A8C35 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8CF599262668CF1E005A8C35 /* TiposPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiposPickerView.swift; sourceTree = "<group>"; };
+		8CF599282668D1FB005A8C35 /* DocumentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentViewModel.swift; sourceTree = "<group>"; };
+		8CF5992A2668E7B6005A8C35 /* BuscarPrendaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuscarPrendaView.swift; sourceTree = "<group>"; };
+		8CF5992C2668E8A2005A8C35 /* PrendaCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrendaCardView.swift; sourceTree = "<group>"; };
+		8CF5992E2668F009005A8C35 /* TypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		8CF599302668F608005A8C35 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		8CF5993626692864005A8C35 /* AddEditConjuntoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditConjuntoView.swift; sourceTree = "<group>"; };
+		8CF5993826692FAC005A8C35 /* PrendaCardNoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrendaCardNoEditView.swift; sourceTree = "<group>"; };
+		8CF5993A266933D7005A8C35 /* GuardaConjuntoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardaConjuntoView.swift; sourceTree = "<group>"; };
+		8CF5993C26693A95005A8C35 /* SinNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinNavView.swift; sourceTree = "<group>"; };
+		8CF599402669414C005A8C35 /* ConjuntoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjuntoCardView.swift; sourceTree = "<group>"; };
+		8CF5994226694846005A8C35 /* BuscarConjuntoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarConjuntoView.swift; sourceTree = "<group>"; };
+		F57BAA3C1313065560A1ABC6 /* Pods-What2wear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What2wear.debug.xcconfig"; path = "Target Support Files/Pods-What2wear/Pods-What2wear.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C9B467826668F2500128D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638D757C7529272B5227DC2C /* Pods_What2wear.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C9B467226668F2500128D5E = {
+			isa = PBXGroup;
+			children = (
+				8C9B467D26668F2500128D5E /* What2wear */,
+				8C9B467C26668F2500128D5E /* Products */,
+				A48E6CB09D7CD6557B55D212 /* Pods */,
+				D1D627D9307D2ADC2D496B94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C9B467C26668F2500128D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B467B26668F2500128D5E /* What2wear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C9B467D26668F2500128D5E /* What2wear */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2FD56266696B400C0331E /* ViewModel */,
+				8CA2FD55266696AF00C0331E /* Model */,
+				8CA2FD54266696A400C0331E /* View */,
+				8C9B467E26668F2500128D5E /* What2wearApp.swift */,
+				8C9B468026668F2500128D5E /* ContentView.swift */,
+				8C9B468226668F2500128D5E /* Assets.xcassets */,
+				8C9B468726668F2500128D5E /* Info.plist */,
+				8C9B468D2666908D00128D5E /* GoogleService-Info.plist */,
+				8C9B468426668F2500128D5E /* Preview Content */,
+				8CA2FD522666918000C0331E /* AppDelegate.swift */,
+			);
+			path = What2wear;
+			sourceTree = "<group>";
+		};
+		8C9B468426668F2500128D5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B468526668F2500128D5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CA2FD54266696A400C0331E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CF5993526692821005A8C35 /* Extra */,
+				8CF59934266927E0005A8C35 /* Principal */,
+				8CF59933266927DB005A8C35 /* Prenda */,
+				8CF59932266927D5005A8C35 /* Conjunto */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CA2FD55266696AF00C0331E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EED712667EB210002F388 /* PrendaModel.swift */,
+				8C5EED792667F0050002F388 /* UserModel.swift */,
+				8C5EED7D2667F1EA0002F388 /* ConjuntoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CA2FD56266696B400C0331E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EED732667EE3F0002F388 /* FirebaseAuth.swift */,
+				8C5EED7B2667F05D0002F388 /* PrendaViewModel.swift */,
+				8CF599282668D1FB005A8C35 /* DocumentViewModel.swift */,
+				8CF599242668CE85005A8C35 /* ImagePicker.swift */,
+				8CF599302668F608005A8C35 /* ShareSheet.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CF59932266927D5005A8C35 /* Conjunto */ = {
+			isa = PBXGroup;
+			children = (
+				8CF5993626692864005A8C35 /* AddEditConjuntoView.swift */,
+				8CF5993A266933D7005A8C35 /* GuardaConjuntoView.swift */,
+				8CF599402669414C005A8C35 /* ConjuntoCardView.swift */,
+				8CF5994226694846005A8C35 /* BuscarConjuntoView.swift */,
+				8CB7337D266A2EC900FD7DF0 /* ConjuntoView.swift */,
+				8CB270D92673646D005ACA62 /* AddRopaConjuntoView.swift */,
+				8CB270DB26736478005ACA62 /* AddCalzadoConjuntoView.swift */,
+				8CB270DD26736482005ACA62 /* AddComplementosConjuntoView.swift */,
+			);
+			path = Conjunto;
+			sourceTree = "<group>";
+		};
+		8CF59933266927DB005A8C35 /* Prenda */ = {
+			isa = PBXGroup;
+			children = (
+				8CF5992C2668E8A2005A8C35 /* PrendaCardView.swift */,
+				8CF5992E2668F009005A8C35 /* TypeView.swift */,
+				8CF5992A2668E7B6005A8C35 /* BuscarPrendaView.swift */,
+				8CF599262668CF1E005A8C35 /* TiposPickerView.swift */,
+				8C5EED6F2667EAA90002F388 /* AddEditPrendaView.swift */,
+				8CF5993826692FAC005A8C35 /* PrendaCardNoEditView.swift */,
+				8CD81F2E2672258D0016A35E /* PrendaView.swift */,
+				8CD81F322672293D0016A35E /* RopaView.swift */,
+				8CD81F34267238560016A35E /* TiposRopaView.swift */,
+			);
+			path = Prenda;
+			sourceTree = "<group>";
+		};
+		8CF59934266927E0005A8C35 /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EED752667EF1F0002F388 /* LoginView.swift */,
+				8C5EED772667EF290002F388 /* RegisterView.swift */,
+				8CA2FD57266696C600C0331E /* InitView.swift */,
+				8C5EED7F2667F53C0002F388 /* IntroduccionView.swift */,
+			);
+			path = Principal;
+			sourceTree = "<group>";
+		};
+		8CF5993526692821005A8C35 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				8CF599222668CE5D005A8C35 /* ImagenStorageView.swift */,
+				8CA2FD5B2666987900C0331E /* NavigationBarColor.swift */,
+				8CA2FD5D26669F7B00C0331E /* MyNavigationView.swift */,
+				8CA2FD5F2666A1B400C0331E /* UtilidadApp.swift */,
+				8C5EED812667F8AE0002F388 /* AccountView.swift */,
+				8CF5993C26693A95005A8C35 /* SinNavView.swift */,
+				8CB270E126736ECA005ACA62 /* EliminaNavInitView.swift */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		A48E6CB09D7CD6557B55D212 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57BAA3C1313065560A1ABC6 /* Pods-What2wear.debug.xcconfig */,
+				6E474E194442D48561605BBA /* Pods-What2wear.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1D627D9307D2ADC2D496B94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F3F4E6518569BC4FD7B29D /* Pods_What2wear.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C9B467A26668F2500128D5E /* What2wear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9B468A26668F2500128D5E /* Build configuration list for PBXNativeTarget "What2wear" */;
+			buildPhases = (
+				42E84982D8B85D83DDCFEBB8 /* [CP] Check Pods Manifest.lock */,
+				8C9B467726668F2500128D5E /* Sources */,
+				8C9B467826668F2500128D5E /* Frameworks */,
+				8C9B467926668F2500128D5E /* Resources */,
+				D663AD52600C3AF77AA68E5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = What2wear;
+			productName = What2wear;
+			productReference = 8C9B467B26668F2500128D5E /* What2wear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C9B467326668F2500128D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8C9B467A26668F2500128D5E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 8C9B467626668F2500128D5E /* Build configuration list for PBXProject "What2wear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C9B467226668F2500128D5E;
+			productRefGroup = 8C9B467C26668F2500128D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C9B467A26668F2500128D5E /* What2wear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C9B467926668F2500128D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9B468626668F2500128D5E /* Preview Assets.xcassets in Resources */,
+				8C9B468326668F2500128D5E /* Assets.xcassets in Resources */,
+				8C9B468E2666908D00128D5E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E84982D8B85D83DDCFEBB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-What2wear-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D663AD52600C3AF77AA68E5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-What2wear/Pods-What2wear-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-What2wear/Pods-What2wear-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-What2wear/Pods-What2wear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C9B467726668F2500128D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5EED742667EE3F0002F388 /* FirebaseAuth.swift in Sources */,
+				8CF5994326694846005A8C35 /* BuscarConjuntoView.swift in Sources */,
+				8CB270DE26736482005ACA62 /* AddComplementosConjuntoView.swift in Sources */,
+				8CF599272668CF1E005A8C35 /* TiposPickerView.swift in Sources */,
+				8C5EED782667EF290002F388 /* RegisterView.swift in Sources */,
+				8C5EED722667EB210002F388 /* PrendaModel.swift in Sources */,
+				8CF599412669414C005A8C35 /* ConjuntoCardView.swift in Sources */,
+				8CF5993726692864005A8C35 /* AddEditConjuntoView.swift in Sources */,
+				8C5EED7C2667F05D0002F388 /* PrendaViewModel.swift in Sources */,
+				8CD81F332672293D0016A35E /* RopaView.swift in Sources */,
+				8CA2FD5C2666987900C0331E /* NavigationBarColor.swift in Sources */,
+				8CF5993926692FAC005A8C35 /* PrendaCardNoEditView.swift in Sources */,
+				8C5EED822667F8AE0002F388 /* AccountView.swift in Sources */,
+				8CA2FD58266696C600C0331E /* InitView.swift in Sources */,
+				8CA2FD532666918000C0331E /* AppDelegate.swift in Sources */,
+				8CB270DA2673646D005ACA62 /* AddRopaConjuntoView.swift in Sources */,
+				8CF5992D2668E8A2005A8C35 /* PrendaCardView.swift in Sources */,
+				8CF5992F2668F009005A8C35 /* TypeView.swift in Sources */,
+				8CF599312668F608005A8C35 /* ShareSheet.swift in Sources */,
+				8CD81F35267238560016A35E /* TiposRopaView.swift in Sources */,
+				8C5EED762667EF1F0002F388 /* LoginView.swift in Sources */,
+				8CF599292668D1FB005A8C35 /* DocumentViewModel.swift in Sources */,
+				8C5EED7A2667F0050002F388 /* UserModel.swift in Sources */,
+				8C9B468126668F2500128D5E /* ContentView.swift in Sources */,
+				8CF5993D26693A95005A8C35 /* SinNavView.swift in Sources */,
+				8CF599232668CE5D005A8C35 /* ImagenStorageView.swift in Sources */,
+				8C5EED702667EAA90002F388 /* AddEditPrendaView.swift in Sources */,
+				8CB270E226736ECA005ACA62 /* EliminaNavInitView.swift in Sources */,
+				8CA2FD602666A1B400C0331E /* UtilidadApp.swift in Sources */,
+				8CB7337E266A2EC900FD7DF0 /* ConjuntoView.swift in Sources */,
+				8CD81F2F2672258D0016A35E /* PrendaView.swift in Sources */,
+				8C9B467F26668F2500128D5E /* What2wearApp.swift in Sources */,
+				8CF5993B266933D7005A8C35 /* GuardaConjuntoView.swift in Sources */,
+				8CA2FD5E26669F7B00C0331E /* MyNavigationView.swift in Sources */,
+				8CB270DC26736478005ACA62 /* AddCalzadoConjuntoView.swift in Sources */,
+				8CF5992B2668E7B6005A8C35 /* BuscarPrendaView.swift in Sources */,
+				8CF599252668CE85005A8C35 /* ImagePicker.swift in Sources */,
+				8C5EED7E2667F1EA0002F388 /* ConjuntoModel.swift in Sources */,
+				8C5EED802667F53C0002F388 /* IntroduccionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C9B468826668F2500128D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C9B468926668F2500128D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C9B468B26668F2500128D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57BAA3C1313065560A1ABC6 /* Pods-What2wear.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"What2wear/Preview Content\"";
+				DEVELOPMENT_TEAM = GUPP7N586R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = What2wear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joseegc10.What2wear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C9B468C26668F2500128D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E474E194442D48561605BBA /* Pods-What2wear.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"What2wear/Preview Content\"";
+				DEVELOPMENT_TEAM = GUPP7N586R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = What2wear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joseegc10.What2wear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C9B467626668F2500128D5E /* Build configuration list for PBXProject "What2wear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9B468826668F2500128D5E /* Debug */,
+				8C9B468926668F2500128D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9B468A26668F2500128D5E /* Build configuration list for PBXNativeTarget "What2wear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9B468B26668F2500128D5E /* Debug */,
+				8C9B468C26668F2500128D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C9B467326668F2500128D5E /* Project object */;
+}
