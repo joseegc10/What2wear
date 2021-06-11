@@ -1,21 +1,3 @@
-::: {.titlepage}
-
-**Escuela Técnica Superior de Ingeniería Informática y
-Telecomunicaciones**
-
-[Programación de dispositivos móviles: App 3]{.smallcaps}
-
-**What2wear**
-
-*José Alberto García Collado*
-
-*26513007-X*
-
-*joseegc10\@correo.ugr.es*
-
-**2020-2021**
-:::
-
 # Explicación de la app
 
 What2wear es una app orientada a que el usuario tenga las prendas de su
